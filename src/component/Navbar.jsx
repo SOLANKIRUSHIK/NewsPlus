@@ -5,7 +5,7 @@ import "../index.css";
 
 const Navbar = ({ selectedCountry, setSelectedCountry }) => {
   const [click, setClick] = useState(false);
-  const [theme, setTheme] = useState('light'); // default theme is 'light';
+  const [theme, setTheme] = useState('light'); 
 
   const handleCountryChange = (e) => {
     setSelectedCountry(e.target.value);

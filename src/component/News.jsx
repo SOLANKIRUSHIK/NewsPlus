@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import PropTypes from 'prop-types'; // Add PropTypes for prop validation
+import PropTypes from 'prop-types'; 
 import Typewriter from './Typewriter';
 import Newsitem from './Newsitem';
 import Spnner from './Spnner'; 

@@ -319,9 +319,9 @@ justify-items: center;
 }
 
 .previousbtn:disabled, .nextbtn:disabled {
-  background-color: #d3d3d3; /* Light grey background for disabled buttons */
-  color: #a9a9a9; /* Dark grey text color for disabled buttons */
-  cursor: not-allowed; /* Show not-allowed cursor */
+  background-color: #d3d3d3; 
+  color: #a9a9a9; 
+  cursor: not-allowed;
 }
 @media only screen and (max-width: 1150px){
    .parent {

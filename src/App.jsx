@@ -5,7 +5,7 @@ import Navbar from "./component/Navbar";
 import News from "./component/News";
 
 const App = () => {
-  const [selectedCountry, setSelectedCountry] = useState("in"); // Default country
+  const [selectedCountry, setSelectedCountry] = useState("in"); 
   const [progress, setProgress] = useState(0);
 
   return (

@@ -20,14 +20,14 @@ const Typewriter = ({ textArray }) => {
         setCurrentIndex((prevIndex) => prevIndex - 1);
       } else if (!isDeleting && currentIndex === currentText.length) {
         setIsDeleting(true);
-        setTimeout(() => {}, 1000); // Pause at the end of each word
+        setTimeout(() => {}, 1000); 
       } else if (isDeleting && currentIndex === 0) {
         setIsDeleting(false);
         setCurrentTextIndex((prevIndex) => (prevIndex + 1) % textArray.length);
       }
     };
 
-    const timer = setTimeout(handleTyping, 100); // Adjust the speed of typing here (e.g., 100ms)
+    const timer = setTimeout(handleTyping, 100);
 
     return () => clearTimeout(timer);
   }, [currentIndex, isDeleting, textArray, currentTextIndex]);
